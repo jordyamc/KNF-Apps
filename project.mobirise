@@ -41,8 +41,8 @@
     ],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/knf-logo-128x128.png",
-    "robotsSwitcher": true,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsSwitcher": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "sitemapSwitcher": true,
     "siteUrl": "https://knf-apps.ga",
     "sitemapSwitcherAuto": "on",
@@ -55,7 +55,8 @@
     "site_lang": "en",
     "publishChangesOnly": true,
     "global_footer_custom": "<script>document.getElementById(\"mobiriseBanner\").remove();</script>\n",
-    "global_header_custom": "<meta http-equiv=\"last-modified\" content=\"Sun, 10 Feb 2013 14:00:46 GMT \" />\n<meta http-equiv=\"cache-control\" content=\"Private\" />\n<meta http-equiv=\"Expires\" content=\"604800\" />"
+    "global_header_custom": "<meta http-equiv=\"last-modified\" content=\"Sun, 10 Feb 2013 14:00:46 GMT \" />\n<meta http-equiv=\"cache-control\" content=\"Private\" />\n<meta http-equiv=\"Expires\" content=\"604800\" />",
+    "google-analytics": "<script src=\"https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js\"></script>\n<script>\n  // Your web app's Firebase configuration\n  var firebaseConfig = {\n    apiKey: \"AIzaSyDQQDsqddcKQi_l9qn6-SHQ-U8G_jMXw8s\",\n    authDomain: \"knf-apps.firebaseapp.com\",\n    databaseURL: \"https://knf-apps.firebaseio.com\",\n    projectId: \"knf-apps\",\n    storageBucket: \"knf-apps.appspot.com\",\n    messagingSenderId: \"179238338970\",\n    appId: \"1:179238338970:web:4ff18b0ec43f18d7d6fa23\",\n    measurementId: \"G-P6F0M0LYVG\"\n  };\n  // Initialize Firebase\n  firebase.initializeApp(firebaseConfig);\n  firebase.analytics();\n</script>"
   },
   "pages": {
     "index.html": {
