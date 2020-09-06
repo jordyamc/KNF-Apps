@@ -757,14 +757,8 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-s9yaueXYfO {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-s9yaueXYfO nav.navbar {
-  position: fixed;
+.cid-s9yaueXYfO .navbar-dropdown {
+  position: relative !important;
 }
 .cid-s9yaueXYfO .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1080,7 +1074,6 @@ a {
 }
 .cid-s9yaueXYfO .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-s9yaueXYfO a.nav-link {
   display: flex;
@@ -1117,7 +1110,7 @@ a {
   margin-bottom: 20px;
 }
 .cid-s9yaFrGZ9T {
-  background-image: url("../../../assets/images/olo2ed1-2000x1250.png");
+  background-image: url("../../../assets/images/olo2ed1.webp");
 }
 .cid-s9yaFrGZ9T .mbr-section-title {
   color: #ffffff;
@@ -2147,7 +2140,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .cid-s9GafLpv9R button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
