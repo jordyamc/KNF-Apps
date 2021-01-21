@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "KNF Apps",
-    "currentPage": "me.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -24,6 +24,7 @@
         "display4Font": "Open Sans",
         "display4Size": 1.1,
         "isRoundedButtons": true,
+        "isGhostButtonBorder": false,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
@@ -49,7 +50,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 20,
-    "versionPublish": "5.0.29",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "dppsSwitcher": true,
     "site_lang": "en",
